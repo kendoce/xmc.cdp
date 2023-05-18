@@ -26,9 +26,7 @@ const StyleguideRouteFields = (props: StyleguideRouteFieldsProps): JSX.Element =
         {value.sitecoreContext.route && <Text field={fields.pageTitle} />}
       </p>
       <p>
-        <Link href="/styleguide/custom-route-type">
-          <a>Sample of using a custom route type</a>
-        </Link>
+        <Link href="/styleguide/custom-route-type">Sample of using a custom route type</Link>
       </p>
     </StyleguideSpecimen>
   );

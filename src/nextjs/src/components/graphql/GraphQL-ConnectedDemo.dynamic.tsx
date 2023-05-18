@@ -7,23 +7,23 @@ import {
   constants,
   GraphQLRequestClient,
   withDatasourceCheck,
-  resetEditorChromes,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import { resetEditorChromes } from '@sitecore-jss/sitecore-jss-nextjs/utils';
 import NextLink from 'next/link';
+import { ConnectedDemoQueryDocument } from './GraphQL-ConnectedDemo.dynamic.graphql';
 import {
-  ConnectedDemoQueryDocument,
-  Page as Page,
+  NextjsAppAppRoute as AppRoute,
   Item,
-  GraphQlConnectedDemo as GrapQLConnectedDemoDatasource,
-} from './GraphQL-ConnectedDemo.dynamic.graphql';
+  NextjsAppGraphQlConnectedDemo as GrapQLConnectedDemoDatasource,
+} from 'graphql-types';
 import { ComponentProps } from 'lib/component-props';
 import config from 'temp/config';
 
-type PageItem = Page & Item;
+type RouteItem = AppRoute & Item;
 
 type GraphQLConnectedDemoData = {
   datasource: GrapQLConnectedDemoDatasource;
-  contextItem: PageItem;
+  contextItem: RouteItem;
 };
 
 type GraphQLConnectedDemoProps = ComponentProps & GraphQLConnectedDemoData;
@@ -80,12 +80,12 @@ const GraphQLConnectedDemo = (props: GraphQLConnectedDemoProps): JSX.Element => 
           children:
           <ul>
             {props.contextItem.children.results.map((child) => {
-              const pageItem = child as PageItem;
+              const routeItem = child as RouteItem;
 
               return (
-                <li key={pageItem.id}>
-                  <NextLink href={pageItem.url.path}>{pageItem.pageTitle?.value}</NextLink>
-                  (editable title too! <Text field={pageItem.pageTitle?.jsonValue} />)
+                <li key={routeItem.id}>
+                  <NextLink href={routeItem.url.path}>{routeItem.pageTitle?.value}</NextLink>
+                  (editable title too! <Text field={routeItem.pageTitle?.jsonValue} />)
                 </li>
               );
             })}

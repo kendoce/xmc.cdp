@@ -1,0 +1,11 @@
+{
+    "namespace": "Languages",
+    "items": {
+        "includes": [
+            {
+                "name": "language-da-dk",
+                "path": "/sitecore/system/Languages/da-DK"
+            }
+        ]
+    }
+}

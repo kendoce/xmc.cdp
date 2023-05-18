@@ -1,11 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
-import {
-  Placeholder,
-  getPublicUrl,
-  LayoutServiceData,
-  Field,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+import { Placeholder, LayoutServiceData, Field, HTMLLink } from '@sitecore-jss/sitecore-jss-nextjs';
+import { getPublicUrl } from '@sitecore-jss/sitecore-jss-nextjs/utils';
 import Navigation from 'src/Navigation';
 import Scripts from 'src/Scripts';
 
@@ -15,6 +11,7 @@ const publicUrl = getPublicUrl();
 
 interface LayoutProps {
   layoutData: LayoutServiceData;
+  headLinks: HTMLLink[];
 }
 
 interface RouteFields {
@@ -22,7 +19,7 @@ interface RouteFields {
   pageTitle: Field;
 }
 
-const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
+const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   const { route } = layoutData.sitecore;
 
   const fields = route?.fields as RouteFields;
@@ -33,11 +30,16 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
       <Head>
         <title>{fields.pageTitle.value.toString() || 'Page'}</title>
         <link rel="icon" href={`${publicUrl}/favicon.ico`} />
+        {headLinks.map((headLink) => (
+          <link rel={headLink.rel} key={headLink.href} href={headLink.href} />
+        ))}
       </Head>
 
       <Navigation />
       {/* root placeholder for the app, which we add components to using route data */}
-      <div className="container">{route && <Placeholder name="jss-main" rendering={route} />}</div>
+      <div className="container">
+        {route && <Placeholder name="NextjsApp-jss-main" rendering={route} />}
+      </div>
     </>
   );
 };
