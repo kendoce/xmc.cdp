@@ -1,0 +1,29 @@
+{
+  "$schema": "./.sitecore/schemas/RootConfigurationFile.schema.json",
+  "modules": [
+    "serialization/**/*.module.json"
+  ],
+  "plugins": [
+    "Sitecore.DevEx.Extensibility.Serialization@5.0.31",
+    "Sitecore.DevEx.Extensibility.Publishing@5.0.31",
+    "Sitecore.DevEx.Extensibility.Indexing@5.0.31",
+    "Sitecore.DevEx.Extensibility.ResourcePackage@5.0.31",
+    "Sitecore.DevEx.Extensibility.Database@5.0.31",
+    "Sitecore.DevEx.Extensibility.XMCloud@1.0.9"
+  ],
+  "serialization": {
+    "defaultMaxRelativeItemPathLength": 100,
+    "defaultModuleRelativeSerializationPath": "items",
+    "removeOrphansForRoles": true,
+    "excludedFields": [
+      {
+        "fieldId": "{5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}",
+        "description": "__Created by"
+      },
+      {
+        "fieldId": "{BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}",
+        "description": "__Updated by"
+      }
+    ]
+  }
+}

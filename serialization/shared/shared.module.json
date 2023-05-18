@@ -1,0 +1,24 @@
+{
+    "namespace": "Shared",
+    "items": {
+        "includes": [
+            {
+                "name": "validation-rich-text",
+                "path": "/sitecore/system/Settings/Validation Rules/Field Types/Rich Text"
+            },
+            {
+                "name": "api-key",
+                "path": "/sitecore/system/Settings/Services/API Keys/Jss"
+            },
+            {
+                "name": "content",
+                "path": "/sitecore/content",
+                "scope": "singleItem"
+            },
+            {
+                "name": "media-lib",
+                "path": "/sitecore/Media Library"
+            }
+        ]
+    }
+}
