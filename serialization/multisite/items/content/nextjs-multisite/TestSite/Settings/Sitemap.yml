@@ -1,0 +1,23 @@
+﻿---
+ID: "5b828474-76c0-40a5-bfa4-ee91f28c74be"
+Parent: "72abf5a2-a894-4564-b168-b016e141021a"
+Template: "c71d8566-35c8-49b7-a84d-9d176e9cbd05"
+Path: "/sitecore/content/nextjs-multisite/TestSite/Settings/Sitemap"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230330T212212Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Ken Doce
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f910b769-6cc4-4c24-af02-2848412479ae"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230330T212212Z

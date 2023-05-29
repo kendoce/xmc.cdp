@@ -1,0 +1,25 @@
+{
+    "namespace": "Multisite",
+    "items": {
+        "includes": [
+            {
+                "allowedPushOperations": "createUpdateAndDelete",
+                "name": "templates",
+                "path": "/sitecore/templates/Project/nextjs-multisite",
+                "scope": "itemAndDescendants"
+            },
+            {
+                "allowedPushOperations": "createUpdateAndDelete",
+                "name": "content",
+                "path": "/sitecore/content/nextjs-multisite",
+                "scope": "itemAndDescendants"
+            },
+            {
+                "allowedPushOperations": "createUpdateAndDelete",
+                "name": "media library",
+                "path": "/sitecore/media library/Project/nextjs-multisite",
+                "scope": "itemAndDescendants"
+            }
+        ]
+    }
+}

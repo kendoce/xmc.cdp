@@ -1,0 +1,23 @@
+﻿---
+ID: "8db1db7a-7a56-413b-8e01-388a3fb2c73b"
+Parent: "a76cc50a-7da2-4687-900d-71cafe23aa33"
+Template: "fbc802e5-4b9e-480f-93da-3f2a80cae5cb"
+Path: "/sitecore/content/nextjs-multisite/DefaultSite/Presentation/Page Branches"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230328T205406Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Ken Doce
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0e5e8de6-8f1b-4bb9-9335-f4b943568335"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230328T205406Z

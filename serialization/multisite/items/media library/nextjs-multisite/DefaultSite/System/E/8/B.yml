@@ -1,0 +1,23 @@
+﻿---
+ID: "c5ba21ed-a193-4e04-a270-bd2e9979539f"
+Parent: "61ed9306-1072-4ef3-a411-dc5b42a1b28c"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: "/sitecore/media library/Project/nextjs-multisite/DefaultSite/System/E/8/B"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230328T205413Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Ken Doce
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e38f5528-8dc5-4fb3-8f18-44ce6f0a13b9"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230328T205413Z

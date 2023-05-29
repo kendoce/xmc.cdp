@@ -1,0 +1,23 @@
+﻿---
+ID: "2d99729c-6e43-4692-8d09-d63f0f2381c7"
+Parent: "4377d58e-4ff7-4855-80d4-44e456ed9447"
+Template: "b762d567-87f5-493c-bb48-0c455d834457"
+Path: "/sitecore/content/nextjs-multisite/DefaultSite/Data/Texts"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230328T205406Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Ken Doce
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4827830f-b9d5-4a12-8c2e-26051156995a"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230328T205406Z

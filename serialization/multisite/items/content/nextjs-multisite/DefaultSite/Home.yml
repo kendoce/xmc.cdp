@@ -1,0 +1,89 @@
+﻿---
+ID: "e8b7fa9f-9c74-415c-816a-91fc0a305e4c"
+Parent: "81eca83a-14a3-4a15-9366-876729cf6ecc"
+Template: "684dd5fb-8c3e-5900-ba9f-b998deb30ff4"
+Path: "/sitecore/content/nextjs-multisite/DefaultSite/Home"
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{6CF1DA3F-E89F-4132-931C-01B1AE46DC11}" />
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
+Languages:
+- Language: "da-DK"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{97247B29-4A7C-43F8-AA34-94C17CB7ACD4}"
+              p:after="*[1=2]"
+              s:ds="{8DCA8AF3-2771-4ABB-9D5A-CF68C5F433E6}"
+              s:id="{6F5CB8C4-7A32-56A3-9E33-C5DC84DFEB52}"
+              s:par="GridParameters&amp;FieldNames&amp;Styles&amp;CSSStyles"
+              s:ph="NextjsApp-jss-main"
+              s:ccb="Clear on publish" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230411T180455Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Ken Doce
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ebe7abe1-fd61-4457-8322-5993ee74e471"
+    - ID: "977a95a3-f38b-5f9e-991b-c388b8b94f91"
+      Hint: pageTitle
+      Value: "Welcome to Sitecore JSS -Default Site DK"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230411T180735Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{767646C1-C5F3-4FC3-9DC7-3F39D941E3DA}"
+              p:after="*[1=2]"
+              s:ds="{8DCA8AF3-2771-4ABB-9D5A-CF68C5F433E6}"
+              s:id="{6F5CB8C4-7A32-56A3-9E33-C5DC84DFEB52}"
+              s:par="GridParameters&amp;FieldNames&amp;Styles&amp;CSSStyles"
+              s:ph="/NextjsApp-jss-main"
+              s:ccb="Clear on publish" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230328T205357Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Ken Doce
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8a62f156-1c4a-4442-aa2a-10c0153fb6e2"
+    - ID: "977a95a3-f38b-5f9e-991b-c388b8b94f91"
+      Hint: pageTitle
+      Value: "Welcome to Sitecore JSS -Default Site"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230328T211537Z

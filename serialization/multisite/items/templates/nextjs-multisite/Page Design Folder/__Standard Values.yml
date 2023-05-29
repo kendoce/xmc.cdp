@@ -1,0 +1,29 @@
+﻿---
+ID: "5b24859c-90ee-4a56-b0e0-239cecf761ad"
+Parent: "303c4627-e959-46cb-ac35-db6c93439bb9"
+Template: "303c4627-e959-46cb-ac35-db6c93439bb9"
+Path: "/sitecore/templates/Project/nextjs-multisite/Page Design Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {303C4627-E959-46CB-AC35-DB6C93439BB9}
+    {1105B8F8-1E00-426B-BF1F-C840742D827B}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230215T181314Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\auth@jss.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "819a3f2c-e773-4034-a120-1f28efaee1cd"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230215T181315Z

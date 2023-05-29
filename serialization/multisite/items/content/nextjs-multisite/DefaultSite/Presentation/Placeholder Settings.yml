@@ -1,0 +1,23 @@
+﻿---
+ID: "3cc14f5b-488b-4be1-a4c1-1612bde28706"
+Parent: "a76cc50a-7da2-4687-900d-71cafe23aa33"
+Template: "52288e39-7830-4694-b62d-32a54c6ef7ba"
+Path: "/sitecore/content/nextjs-multisite/DefaultSite/Presentation/Placeholder Settings"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230328T205359Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Ken Doce
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "722f5f58-d35f-40a1-9474-28b785df9bd6"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230328T205359Z

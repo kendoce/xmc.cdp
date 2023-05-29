@@ -1,0 +1,55 @@
+﻿---
+ID: "31cc5b66-25df-4b5b-9bb0-fd9fe94c689c"
+Parent: "71340e92-5338-4cb3-be64-9b27f9572180"
+Template: "d78bdd8b-5e3e-5b78-bec0-77807776e6bb"
+Path: "/sitecore/content/nextjs-app/home/TestPages/defaultPage/Page Components/ContentBlock-Default"
+Languages:
+- Language: "da-DK"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230330T184122Z
+    - ID: "2ef22603-905a-516c-9836-24f04c25b448"
+      Hint: content
+      Value: <strong>DEFAULT PAGE</strong> danish
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Ken Doce
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4b057cd2-1279-4f69-9108-f493ffbdfd48"
+    - ID: "b1ff70e7-78bc-54d6-9a6d-318a6855dd35"
+      Hint: heading
+      Value: "Welcome to Sitecore JSS - defaultPage danish"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230330T184151Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230330T182630Z
+    - ID: "2ef22603-905a-516c-9836-24f04c25b448"
+      Hint: content
+      Value: <p><b>DEFAULT PAGE</b></p>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Ken Doce
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "682d0a73-d631-494f-bfc8-9c22bd3c9652"
+    - ID: "b1ff70e7-78bc-54d6-9a6d-318a6855dd35"
+      Hint: heading
+      Value: "Welcome to Sitecore JSS - defaultPage"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230330T182836Z
