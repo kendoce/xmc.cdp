@@ -26,18 +26,6 @@ const nextConfig = {
     // This is the locale that will be used when visiting a non-locale
     // prefixed path e.g. `/styleguide`.
     defaultLocale: jssConfig.defaultLanguage,
-
-    localeDetection:true,
-    domains: [
-        {
-            domain: 'nextjstest.jss.localhost',
-            defaultLocale: 'en',
-        },
-        {
-            domain: 'nextjstestdk.jss.localhost',
-            defaultLocale: 'da-DK',
-        },
-    ],
   },
   
   // Enable React Strict Mode
