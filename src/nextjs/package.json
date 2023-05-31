@@ -5,17 +5,15 @@
   "private": true,
   "config": {
     "appName": "nextjs-app",
-    "graphQLEndpointPath": "/sitecore/api/graph/edge",
-    "language": "en",
     "rootPlaceholders": [
-      "NextjsApp-jss-main",
-      "jss-main"
+      "NextjsApp-jss-main"
     ],
     "sitecoreConfigPath": "/App_Config/Include/zzz",
+    "graphQLEndpointPath": "/sitecore/api/graph/edge",
+    "language": "en",
     "templates": [
       "nextjs",
       "nextjs-styleguide",
-      "nextjs-sxa",
       "nextjs-personalize",
       "nextjs-multisite"
     ]
@@ -39,17 +37,14 @@
   "dependencies": {
     "@sitecore-jss/sitecore-jss-nextjs": "~21.2.0-canary",
     "@sitecore/engage": "^0.4.0",
-    "bootstrap": "^5.1.3",
-    "font-awesome": "^4.7.0",
+    "bootstrap": "^5.2.3",
     "graphql": "~15.8.0",
     "graphql-tag": "^2.12.6",
     "next": "^13.1.6",
     "next-localization": "^0.12.0",
     "nprogress": "~0.2.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sass": "^1.52.3",
-    "sass-alias": "^1.0.5"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^1.21.8",
